@@ -5,6 +5,20 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112538_added_entity_HopDosya.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112539_added_entity_HopBorc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112540_added_entity_HopMasraf.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112541_added_entity_HopDosyaBorc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112542_added_entity_HopDosyaBorcKalem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112543_added_entity_HopFinansalHareket.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112544_added_entity_HopFinansalHareketDetay.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20180516112538_added_entity_constraints_HopDosya.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112539_added_entity_constraints_HopBorc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112540_added_entity_constraints_HopMasraf.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112541_added_entity_constraints_HopDosyaBorc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112542_added_entity_constraints_HopDosyaBorcKalem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112543_added_entity_constraints_HopFinansalHareket.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180516112544_added_entity_constraints_HopFinansalHareketDetay.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
